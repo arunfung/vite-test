@@ -15,6 +15,6 @@ const envResolver = {
 }
 export default defineConfig(({command, mode}) => {
     const env = loadEnv(mode, process.cwd(), "")
-    console.log("env", env.APP_KEY);
+    console.log("env", env);
     return envResolver[command]();
 })

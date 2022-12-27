@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
+    "test": "vite --mode test",
     "build": "vite build"
   },
   "dependencies": {
