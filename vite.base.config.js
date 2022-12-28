@@ -21,7 +21,7 @@ export default defineConfig({
             }
         },
         devSourcemap: true, // 开启css source map 索引源文件，方便查找源文件
-        postcss: {
+        postcss: { // 优先级高于 postcss.config.js
             plugins: [
                 postcssPresetEnv(/* pluginOptions */)
             ]
