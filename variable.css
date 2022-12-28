@@ -1,0 +1,5 @@
+/* 使用超前的css特性不需要less 预处理，只需交给 postcss 后处理 */
+
+:root {
+    --globalColor: lightblue;
+}
